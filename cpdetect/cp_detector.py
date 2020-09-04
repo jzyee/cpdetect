@@ -7,13 +7,13 @@ Author: Chaya D. Stern
 
 import numpy as np
 import copy
-from cpdetect.utils import logger
+from .utils import logger
 import time
 import pandas as pd
 import math
 from scipy.special import gammaln
 from collections import OrderedDict
-from scipy.misc import logsumexp
+from scipy.special import logsumexp
 
 
 class Detector(object):
